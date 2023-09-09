@@ -1,0 +1,27 @@
+#   VEX - Vector expression language HOUDINI 
+#   Attributes are the values carried by the geometry on point, primitive, vertex, or detail.
+#   @P defines position - you can adjust position in space
+#   Syntax - coding grammar
+#   End of the line is finished with the ';'
+#   @name - represents attributes
+#   h$cript - is houdini coding language
+#   float - is the number with decimal places
+#   integer - is whole numbers
+#   string - is for text
+
+#   Variables are temporary after code runs in houdini
+
+
+float x;
+x = x*4;
+x = 3.4;         # assigned a value to x
+float y = x*2;
+int integerVar = 1; #   integer
+vector vecVar = {0, 1.6, 0};
+string stringVar = "Hello World";
+
+@myFirstAttribute = x;
+
+v@Cd.r = 1; #   red color
+v@Cd.g = 0; #   green color
+v@Cd.b = 0; #   blue color
